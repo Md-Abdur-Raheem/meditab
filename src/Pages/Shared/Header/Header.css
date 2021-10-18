@@ -1,0 +1,11 @@
+.navigation-container{
+    line-height: 30px;
+    border-bottom: 2px solid #008aff;
+}
+.nav-menu{
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.719);
+}
+.nav-menu:hover{
+    color: #008aff;
+}
