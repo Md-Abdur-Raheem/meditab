@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Footer from './Pages/Shared/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
+import Login from './Pages/Login/Login';
 
 function App() {
   return (
@@ -16,8 +17,14 @@ function App() {
           <Header></Header>
         </Route>
         <Switch>
-          <Route>
+          <Route exact path = "/">
             <Home></Home>
+          </Route>
+          <Route path = "/home">
+            <Home></Home>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
           </Route>
         </Switch>
         <Route>

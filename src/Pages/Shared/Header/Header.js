@@ -22,12 +22,12 @@ const Header = () => {
                     </Col>
                     <Col md={8}>
                         <Nav className = "fs-5">
-                            <NavLink className = "p-3 nav-menu" to="#home">Home</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="#link">About</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="#home">Services</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="#link">Doctors</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="#home">Contacts</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="#link">Login</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/home">Home</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/aboutk">About</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/service">Services</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/doctors">Doctors</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/contacts">Contacts</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/login">Login</NavLink>
                         </Nav>
                     </Col>
            </Row>

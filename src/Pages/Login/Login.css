@@ -1,0 +1,68 @@
+.login-container{
+    background-color: #083b7b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+    height: 85vh;
+}
+.form-container{
+    background-color:#689ff1;
+    padding: 100px;
+    border-radius: 50px;
+}
+
+.login-form input{
+    width: 75%;
+    height: 30px;
+    background-color: transparent;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid #083b7b;
+    color: white;
+    outline: none;
+}
+
+.login-btn{
+    background-color: #008aff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+.login-btn:hover{
+    background-color: white;
+    color: #008aff;
+    border: 1px solid #008aff;
+}
+.register{
+    text-decoration: none;
+    color:#0072d6;
+    font-weight: 700;
+}
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .form-container{
+        padding: 25px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .login-form input{
+        width: 100%;
+    }
+    .label{
+        padding: 0 !important; 
+    }
+}
+
+/* Media query for medium device */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .label{
+        padding: 0 !important; 
+        margin-bottom: 0 !important;
+    }
+   
+}
