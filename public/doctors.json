@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "DR. BABATUNDE",
+      "designation": "Neuro surgeon",
+      "img": "https://i.ibb.co/qnpyvQv/team-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "DR. ADDISION SMITH",
+      "designation": "Dental surgeon",
+      "img": "https://i.ibb.co/ZSLq0d2/team-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "DR. SARAH TYLOR",
+      "designation": "Cardiyio surgeon",
+      "img": "https://i.ibb.co/Nt89LpT/team-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "DR. JACKSON WILL",
+      "designation": "Pediatrician",
+      "img": "https://i.ibb.co/1KmRqsQ/team-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "DR. DANIEL REDCLIEF",
+      "designation": "Orthopedic surgeon",
+      "img": "https://i.ibb.co/7tZSPF6/team-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "DR. WILLIAM SMITH",
+      "designation": "Urologist",
+      "img": "https://i.ibb.co/nwJjJfD/team-6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "DR. EMA WATSON",
+      "designation": "Neuro surgeon",
+      "img": "https://i.ibb.co/qFx5kwb/team-7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "DR. TORY HANKS",
+      "designation": "Cardiologist",
+      "img": "https://i.ibb.co/zryMhHs/team-8.jpg"
+    }
+  ]

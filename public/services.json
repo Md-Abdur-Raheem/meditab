@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "serviceImg": "https://i.ibb.co/W3j4B0b/heart.png",
+      "shortDescription": "The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology. Physicians who specialize in this field of medicine are called cardiologists, a specialty of internal medicine.",
+      "longDescription": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology specialists are here to help you manage and treat your heart health no matter what you might need.Whether you need minor treatment or a complex procedure, our goal is always to have you back to leading a full, normal life as quickly as possible. Our cardiology team will work hard to evaluate your condition and recommend treatment options that will best meet your unique needs.",
+      "treatments": [
+        "Cardiac rehabilitation",
+        "Heart rhythm monitoring",
+        "General cardiology consultatio",
+        "Stress testing",
+        "Echocardiography",
+        "Cardiac Catheterization",
+        "Stenting",
+        "ASD/PFO closure",
+        "Electrocardiogram (EKG) testing of the heart’s electrical activity",
+        "Anti-coagulation management for heart valve patients"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Urology",
+      "serviceImg": "https://i.ibb.co/K0gcMZh/kidneys.png",
+      "shortDescription": "Urology, also known as genitourinary surgery, is the branch of medicine that focuses on surgical and medical diseases of the male and female urinary-tract system and the male reproductive organs.",
+      "longDescription": "The Department of Urology is dedicated to providing state-of-the-art medical and surgical care for all specialties of male and female urology (both adult and paediatric), as well as male infertility problems. Each year, our highly experienced urologists treat hundreds of patients, providing expert diagnosis, care and surgeries for complete range of urological conditions. We offer patients confidential evaluations, treatment and follow-up care with state-of-the-art resources, like ultra modern operation theatres (OT), dedicated Kidney Transplant Unit, Lithotripsy Unit, as well as modern diagnostic facilities like urodynamic studies. Our kidney transplant program has a 100% success rate with nearly zero infection. The department has become a national referral surgical centre.",
+      "treatments": [
+        "Uro-Diagnostics",
+        "General Urology",
+        "Uro-Oncology",
+        "Neuro Urology",
+        "Female Urology",
+        "Erectile Dysfunction",
+        "Male Infertility",
+        "Reconstructive Urology",
+        "Kidney Failure: Kidney Transplant Program",
+        "Stone Disease Management",
+        "Urological Surgeries"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Neurology",
+      "serviceImg": "https://i.ibb.co/Xszm8Yk/neurology.png",
+      "shortDescription": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.",
+      "longDescription": "Headaches, tremors, numbness and memory lapses are all potential signs of a neurological problem that can hinder your daily activities. Neurologists in the Sutter Health network provide comprehensive consultation, evaluation and treatment for a variety of neurological disorders.When something goes wrong with your nervous system, you want a doctor who can determine the cause of your problem and help you feel better. Highly trained neurologists in the Sutter Health network use advanced imaging techniques and the latest devices available to diagnose and treat disorders of the brain, spine or central nervous system.",
+      "treatments": [
+        "Back and spine problems.",
+        "Headaches and migraines.",
+        "Memory disorders.",
+        "Multiple sclerosis and autoimmune conditions.",
+        "Neuromuscular disorders.",
+        "Numbness, weakness and balance problems.",
+        "Parkinson's disease and movement disorders.",
+        "Seizures and tremors.",
+        "Stroke and neurovascular problems."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Orthopedic",
+      "serviceImg": "https://i.ibb.co/7rYZLhg/orthopedics.png",
+      "shortDescription": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system",
+      "longDescription": "Orthopedics, or orthopedic services, aim at the treatment of the musculoskeletal system. This includes your bones, joints, ligaments, tendons, and muscles.Imaging procedures can help diagnose or even treat many orthopedic conditions. Your health care provider may order.",
+      "treatments": [
+        "X-rays",
+        "Bone scans",
+        "Computed tomography (CT) scan",
+        "Magnetic resonance imaging (MRI) scan",
+        "Arthrogram (joint x-ray)",
+        "Discography",
+        "Minimally invasive surgery",
+        "Advanced external fixation",
+        "Use of bone graft substitutes and bone-fusing protein"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Gastrology",
+      "serviceImg": "https://i.ibb.co/FDw10c2/stomach.png",
+      "shortDescription": "Gastroenterology is the branch of medicine focused on the digestive system and its disorders. Diseases affecting the gastrointestinal tract, which include the organs from mouth into anus, along the alimentary canal, are the focus of this speciality. Physicians practicing in this field are called gastroenterologists",
+      "longDescription": "Department of Gastroenterology & Hepatology is devoted to the clinical care of patients with gastrointestinal and liver disorders. The department is home to excellent patient care, and our specialists employ the most advanced diagnostic and therapeutic endoscopy services to ensure the best outcomes for each patient. Working closely with a dedicated staff that includes doctors, technologists, nurses, dietitians and more, our care is unsurpassed with the kind of quality and compassion you can expect from a leader in healthcare.",
+      "treatments": [
+        "Endoscopy",
+        "Gastroscopy or EGD (esophagogastroduodenoscopy)",
+        "Colonoscopy",
+        "Enteroscopy",
+        "Endoscopic Polypectomy",
+        "Sigmoidoscopy",
+        "ERCP (Endoscopic Retrograde Cholangio-Pancreatography)",
+        "Paracentesis",
+        "Sigmoidoscopy"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dentist",
+      "serviceImg": "https://i.ibb.co/tcF7bqr/tooth.png",
+      "shortDescription": "A dentist, also known as a dental surgeon, is a medical professional who specializes in dentistry, the diagnosis, prevention, and treatment of diseases and conditions of the oral cavity. The dentist's supporting team aids in providing oral health services. The dental team includes dental assistants, dental hygienists, dental technicians, and sometimes dental therapists.",
+      "longDescription": "Department of Dental & Maxillofacial Surgery offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease.",
+      "treatments": [
+        "Orthoantomogram (OPG)/ Dental X-ray",
+        "Consultation",
+        "Evaluation & Examination of white lesion, oral cancer, etc.",
+        "Brushing instruction with materials, i.e. dental kit (toothpaste, brush)",
+        "Teeth scaling & polishing (full mouth)",
+        "Simple tooth extraction",
+        "Restoration-Composite",
+        "Biopsy LA"
+      ]
+    }
+  ]

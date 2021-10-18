@@ -54,12 +54,10 @@ const Footer = () => {
                                     <td className="pe-2"><i className="fas fa-map-marker-alt fs-2"></i></td>
                                     <td className="ps-3"><p className="m-0">2130 Fulton Street</p><p>San Diego CA 94117-1080 USA</p></td>
                                 </tr>
-                                <br />
                                 <tr>
                                     <td><i className="fas fa-phone-alt fs-2"></i></td>
                                     <td className="ps-3"><p className="m-0">Coll Us Now!</p><p>+898 68679 575</p></td>
                                 </tr>
-                                <br />
                                 <tr>
                                     <td><i className="fas fa-envelope fs-2"></i></td>
                                     <td className="ps-3"><p className="m-0">Do you have a Question?</p><p>info@gmail.com</p></td>
