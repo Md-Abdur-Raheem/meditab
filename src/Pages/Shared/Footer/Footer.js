@@ -5,7 +5,7 @@ import logo from '../../../media/logo-removebg.png'
 
 const Footer = () => {
     return (
-        <footer className="footer-container fixed-bottom">
+        <footer className="footer-container">
             <Container>
                 <Row className="gx-5">
                     <Col md={4} className="text-start">

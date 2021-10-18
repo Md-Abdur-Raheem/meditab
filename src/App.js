@@ -4,9 +4,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Footer from './Pages/Shared/Footer/Footer';
+import Home from './Pages/Home/Home/Home';
 
 function App() {
   return (
@@ -15,6 +15,11 @@ function App() {
         <Route>
           <Header></Header>
         </Route>
+        <Switch>
+          <Route>
+            <Home></Home>
+          </Route>
+        </Switch>
         <Route>
           <Footer></Footer>
         </Route>

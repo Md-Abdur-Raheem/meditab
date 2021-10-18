@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header className="navigation-container w-100 sticky-top">
+        <header className="navigation-container w-100">
             <Container>
                 <Row>
                     <Col md = {4}>

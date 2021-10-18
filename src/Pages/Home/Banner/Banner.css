@@ -1,0 +1,58 @@
+.banner-container{
+    /* padding: 10px; */
+    background-image: url(../../../media/banner/banner.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-img-container{
+    width: fit-content;
+    object-fit: cover;
+}
+.banner-img{
+    object-fit: cover;
+    width: 35%;
+}
+.banner-text{
+    font-size: 50px;
+    color:#083b7b;
+}
+
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .banner-text{
+        font-size: 20px;
+        color:#083b7b;
+    }
+    .banner-img{
+        width: 50%;
+    }
+    
+}
+
+/* Media query for medium device */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner-text{
+        font-size: 30px;
+        color:#083b7b;
+    }
+    .banner-img{
+        width: 50%;
+    }
+   
+}
+
+/* Media query for large device */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .banner-img{
+        width: 50%;
+    }
+   
+}
