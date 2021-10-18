@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Router>
         <Route>
           <Header></Header>
+        </Route>
+        <Route>
+          <Footer></Footer>
         </Route>
       </Router>
     </div>

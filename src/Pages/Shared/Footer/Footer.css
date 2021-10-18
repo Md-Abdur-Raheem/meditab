@@ -1,0 +1,40 @@
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #083b7b;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-image: url(../../../media/footer-bg.jpg);
+    background-blend-mode: saturation;
+    height: 400px;
+    color: white;
+}
+.departments-list li{
+    list-style-type: none;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.title{
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .footer-container{
+        height: fit-content;
+    }
+    
+}
+
+/* Media query for large device */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .footer-container{
+        height: fit-content;
+    }
+   
+}
