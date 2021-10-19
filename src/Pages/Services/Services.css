@@ -1,0 +1,32 @@
+.banner{
+    background-image: url(../../media/service-banner.jpg);
+    height: 300px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-title{
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+.test-service{
+    height: 400px;
+    width: 25%;
+    margin-left: 20px;
+}
+.test-service img{
+    /* padding: 10%; */
+    width: 100%;
+}
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .test-service{
+        width: 100%;
+    }
+}

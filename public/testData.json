@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Pathology testing",
+      "img": "https://i.ibb.co/8K3mx7K/service-2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Advanced microscopy",
+      "img": "https://i.ibb.co/99FJcxd/service-3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chemical research",
+      "img": "https://i.ibb.co/LZv73Hj/service-1.jpg"
+    }
+  ]

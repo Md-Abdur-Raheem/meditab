@@ -1,0 +1,8 @@
+.one-service:hover{
+    background-color: #083b7b;
+    color: white;
+    transition: background-color .6s ease;
+}
+.one-service:hover .read-btn{
+    color: white;
+}
