@@ -3,24 +3,28 @@ import { Container } from 'react-bootstrap';
 import './Login.css'
 import logo from '../../media/logo-removebg.png';
 import google from '../../media/google.png'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import useAuth from '../../hooks/useAuth/useAuth';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 const Login = () => {
     const { register, handleSubmit } = useForm();
-    const { googleSignIn, setUser, error, setError } = useAuth();
+    const { googleSignIn, setUser, error, setError, setLoading } = useAuth();
     const auth = getAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirectURL = location?.state?.from?.pathname || "/";
 
     const onSubmit = data => {
         console.log(data)
         const { email, password } = data;
+        
 
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 console.log(result);
-                // history.push(redirectURL);
+                history.push(redirectURL);
                 const user = result.user;
                 setUser(user)
                 setError('');
@@ -29,6 +33,22 @@ const Login = () => {
             setError(error.message);
         })
     };
+
+    const handleGoogleSignIn = () => {
+        googleSignIn()
+        .then(result => {
+            console.log(result.user);
+            setUser(result.user);
+            history.push(redirectURL);
+
+        })
+        .catch(error => {
+            setError(error.message);
+        })
+        .finally(() => setLoading(false));
+    }
+
+    
     return (
         <div className="login-container">
             <Container className="d-flex flex-column justify-content-center h-100">
@@ -48,7 +68,7 @@ const Login = () => {
                     <NavLink className="register" to="/register">Create Account</NavLink>
                     <br />
                     <br />
-                    <button onClick={googleSignIn} className="google-login"><img src={google} alt="" width="35px"/><small>Google Login</small></button>
+                    <button onClick={handleGoogleSignIn} className="google-login"><img src={google} alt="" width="35px"/><small>Google Login</small></button>
                 </form>
             </Container>
         </div>

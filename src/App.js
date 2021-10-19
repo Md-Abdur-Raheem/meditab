@@ -11,6 +11,7 @@ import Services from './Pages/Services/Services';
 import Doctors from './Pages/Doctors/Doctors';
 import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
+import PrivateRoute from './Pages/PrivataRoute/PrivataRoute';
 
 function App() {
   return (
@@ -36,13 +37,13 @@ function App() {
               <Services></Services>
             </Route>
 
-            <Route path = "/doctors">
+            <PrivateRoute path = "/doctors">
               <Doctors></Doctors>
-            </Route>
+            </PrivateRoute>
 
-            <Route path = "/contacts">
+            <PrivateRoute path = "/contacts">
               <Contacts></Contacts>
-            </Route>
+            </PrivateRoute>
 
             <Route path="/login">
               <Login></Login>
