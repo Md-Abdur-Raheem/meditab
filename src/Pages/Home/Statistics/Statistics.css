@@ -1,0 +1,23 @@
+.statsitics-container{
+    background-image: url(../../../media/statistics-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 1000px;
+    padding-top: 3%;
+    padding-left: 4%;
+    box-shadow: -1px 6px 70px 0px gray;
+    
+}
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .statsitics-container{
+       width: fit-content;
+       height: fit-content;
+
+    }
+}
