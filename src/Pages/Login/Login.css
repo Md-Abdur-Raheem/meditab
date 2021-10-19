@@ -1,13 +1,13 @@
 .login-container{
-    background-color: #083b7b;
+    background-color: /* #083b7b */ white;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: saturation;
     height: 85vh;
 }
 .form-container{
-    background-color:#689ff1;
-    padding: 100px;
+    background-color:#0088ff4b;
+    padding: 60px 30px;
     border-radius: 50px;
 }
 
@@ -19,7 +19,7 @@
     border-right:none;
     border-left:none;
     border-bottom: 2px solid #083b7b;
-    color: white;
+    color: #000;
     outline: none;
 }
 
