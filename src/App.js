@@ -10,6 +10,7 @@ import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
 import Doctors from './Pages/Doctors/Doctors';
 import Contacts from './Pages/Contacts/Contacts';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -49,6 +50,10 @@ function App() {
 
             <Route path="/register">
               <Register></Register>
+            </Route>
+
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
 
           </Switch>

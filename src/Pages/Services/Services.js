@@ -22,7 +22,7 @@ const Services = () => {
                 <p>We are the team of experts and specialist for particular braches falls into <br /> research and diagnosis, ready to serve you at their best.</p>
                 <Row className="container mx-auto my-5">
                     {test.map(t => 
-                        <Card className="col-md-4 mx-auto text-center test-service pb-5">
+                        <Card key={t.id} className="col-md-4 mx-auto text-center test-service pb-5">
                         <Card.Img variant="top" src={t.img} />
                         <Card.Body>
                             <Card.Title>{t.name}</Card.Title>
