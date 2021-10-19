@@ -12,7 +12,6 @@ const Service = () => {
     const handleClick = () =>{
         history.push('/services')
     }
-    console.log(services);
     return (
         <div className="service-container py-5">
             <h1>Explore Our Caring & Premium <br /> Medical Services</h1>

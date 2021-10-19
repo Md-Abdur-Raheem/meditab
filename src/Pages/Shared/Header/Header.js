@@ -24,12 +24,12 @@ const Header = () => {
                     </Col>
                     <Col md={8}>
                         <Nav className = "fs-5">
-                            <NavLink className = "p-3 nav-menu" to="/home">Home</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="/about">About</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="/services">Services</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="/doctors">Doctors</NavLink>
-                            <NavLink className = "p-3 nav-menu" to="/contacts">Contacts</NavLink>
-                            {user.email ? <><p className="user-name">{user.displayName}</p><button onClick={logOut} className = "logout-btn p-3 nav-menu" to="/home">Logout</button></> :<NavLink className = "p-3 nav-menu" to="/login">Login</NavLink>}
+                            <NavLink className = "p-3 nav-menu" to="/home" activeStyle={{fontWeight: "bold", color: "#008aff"}}>Home</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/about" activeStyle={{fontWeight: "bold", color: "#008aff"}}>About</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/services" activeStyle={{fontWeight: "bold", color: "#008aff"}}>Services</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/doctors" activeStyle={{fontWeight: "bold", color: "#008aff"}}>Doctors</NavLink>
+                            <NavLink className = "p-3 nav-menu" to="/contacts" activeStyle={{fontWeight: "bold", color: "#008aff"}}>Contacts</NavLink>
+                            {user.email ? <><p className="user-name">{user.displayName}</p><button onClick={logOut} className = "logout-btn p-3 nav-menu" to="/home">Logout</button></> :<NavLink className = "p-3 nav-menu" to="/login"  activeStyle={{fontWeight: "bold", color: "#008aff"}}>Login</NavLink>}
                         </Nav>
                     </Col>
            </Row>

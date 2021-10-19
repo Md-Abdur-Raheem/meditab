@@ -1,0 +1,9 @@
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .details-img{
+        width: 100%;
+    }
+    
+}

@@ -12,6 +12,7 @@ import Doctors from './Pages/Doctors/Doctors';
 import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
 import PrivateRoute from './Pages/PrivataRoute/PrivataRoute';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
 
             <PrivateRoute path = "/contacts">
               <Contacts></Contacts>
+            </PrivateRoute>
+
+            <PrivateRoute path = "/details/:id">
+              <ServiceDetails></ServiceDetails>
             </PrivateRoute>
 
             <Route path="/login">
