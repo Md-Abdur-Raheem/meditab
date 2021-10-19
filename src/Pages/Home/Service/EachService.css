@@ -1,0 +1,47 @@
+.service{
+    margin: 20px;
+}
+
+.service:hover{
+    background-color: #083b7b;
+    color: white;
+    transition: background-color .6s ease;
+}
+
+.service:hover .read-btn{
+    color: white;
+}
+
+.card-img{
+    width: 30%;
+    padding-top: 20px;
+    margin-left: 35%;
+
+}
+
+.read-btn{
+    border: none;
+    background-color: transparent;
+    color: #083b7b;
+    font-weight: 700;
+
+}
+
+/* ----------Media Query---------- */
+
+/* Media query for extra small device */
+@media only screen and (max-width:575px) {
+    .service{
+       width: 100%;
+       height: 500px;
+    }
+}
+
+/* Media query for medium device */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .service{
+        width: 50%;
+        height: 400px;
+     }
+   
+}

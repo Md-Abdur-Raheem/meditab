@@ -1,0 +1,9 @@
+.service-container{
+    background-image: url(../../../media/service-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services{
+    overflow-x: scroll;
+}

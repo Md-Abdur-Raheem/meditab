@@ -9,3 +9,16 @@
 .nav-menu:hover{
     color: #008aff;
 }
+
+.user-name{
+    background-color: #008aff;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 18px;
+    margin-top: 12px;
+}
+
+.logout-btn{
+    border: none;
+    background-color: transparent;
+}

@@ -40,6 +40,23 @@
     font-weight: 700;
 }
 
+.google-login{
+    background-color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.google-login:hover{
+    opacity: .8;
+}
+
+.google-login img{
+    object-fit: cover;
+}
+
+
 /* ----------Media Query---------- */
 
 /* Media query for extra small device */

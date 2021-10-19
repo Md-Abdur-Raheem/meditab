@@ -1,36 +1,61 @@
 import './App.css';
 import Header from './Pages/Shared/Header/Header';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from './Pages/Shared/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
+import AuthProvider from './context/AuthProvider';
+import Register from './Pages/Register/Register';
+import About from './Pages/About/About';
+import Services from './Pages/Services/Services';
+import Doctors from './Pages/Doctors/Doctors';
+import Contacts from './Pages/Contacts/Contacts';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Route>
-          <Header></Header>
-        </Route>
-        <Switch>
-          <Route exact path = "/">
-            <Home></Home>
-          </Route>
-          <Route path = "/home">
-            <Home></Home>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-        </Switch>
-        <Route>
-          <Footer></Footer>
-        </Route>
-      </Router>
+      <AuthProvider>
+        <Router>
+            <Header></Header>
+
+          <Switch>
+            <Route exact path = "/">
+              <Home></Home>
+            </Route>
+
+            <Route path = "/home">
+              <Home></Home>
+            </Route>
+
+            <Route path = "/about">
+              <About></About>
+            </Route>
+
+            <Route path = "/services">
+              <Services></Services>
+            </Route>
+
+            <Route path = "/doctors">
+              <Doctors></Doctors>
+            </Route>
+
+            <Route path = "/contacts">
+              <Contacts></Contacts>
+            </Route>
+
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+
+          </Switch>
+
+            <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
