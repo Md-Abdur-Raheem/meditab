@@ -11,7 +11,7 @@ import Services from './Pages/Services/Services';
 import Doctors from './Pages/Doctors/Doctors';
 import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
-import PrivateRoute from './Pages/PrivataRoute/PrivataRoute';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 
 function App() {
