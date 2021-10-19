@@ -27,7 +27,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title>{t.name}</Card.Title>
                             <Card.Text>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iste, omnis quos culpa qui illum voluptates ea obcaecati ut earum?
+                                {t.description}
                             </Card.Text>
                         </Card.Body>
                     </Card>

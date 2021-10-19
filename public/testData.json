@@ -2,16 +2,19 @@
     {
       "id": 1,
       "name": "Pathology testing",
-      "img": "https://i.ibb.co/8K3mx7K/service-2.jpg"
+      "img": "https://i.ibb.co/8K3mx7K/service-2.jpg",
+      "description": "Pathology tests cover blood tests, and tests on urine, stools (faeces) and bodily tissues."
     },
     {
       "id": 2,
       "name": "Advanced microscopy",
-      "img": "https://i.ibb.co/99FJcxd/service-3.jpg"
+      "img": "https://i.ibb.co/99FJcxd/service-3.jpg",
+      "description": "Advanced microscopy techniques such as SEM, TEM and Dual Beam SEM are essential techniques to investigate sample microstructure, particle coatings and defects"
     },
     {
       "id": 3,
       "name": "Chemical research",
-      "img": "https://i.ibb.co/LZv73Hj/service-1.jpg"
+      "img": "https://i.ibb.co/LZv73Hj/service-1.jpg",
+      "description": "Many chemicals used by the health sector are employed for specific purposes unique to health care, for instance or disinfectants for sterilization."
     }
   ]
