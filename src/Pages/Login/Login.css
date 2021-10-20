@@ -1,39 +1,46 @@
 .login-container{
-    background-color: /* #083b7b */ white;
+    background-image: url('../../media/login.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: saturation;
-    height: 85vh;
+    background-position: center;
+    height: 100%;
 }
 .form-container{
-    background-color:#0088ff4b;
+    background-color: white;
     padding: 60px 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
-.login-form input{
-    width: 75%;
-    height: 30px;
-    background-color: transparent;
-    border-top:none;
-    border-right:none;
-    border-left:none;
-    border-bottom: 2px solid #083b7b;
-    color: #000;
+.login-title{
+    color: #0072d6;
+}
+
+.login-input-field{
+    width: 80%;
+    background-color:#eaedf3 ;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+}
+.login-input-field:focus{
+    border: none;
     outline: none;
 }
 
 .login-btn{
     background-color: #008aff;
-    border: none;
-    padding: 10px 20px;
+    border: 1px solid transparent;
+    padding: 5px 20px;
     color: white;
+    border-radius: 20px;
 }
+
 .login-btn:hover{
     background-color: white;
     color: #008aff;
     border: 1px solid #008aff;
 }
+
 .register{
     text-decoration: none;
     color:#0072d6;
@@ -41,7 +48,7 @@
 }
 
 .google-login{
-    background-color: white;
+    background-color: rgba(231, 227, 227, 0.678);
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
@@ -62,24 +69,16 @@
 /* Media query for extra small device */
 @media only screen and (max-width:575px) {
     .form-container{
-        padding: 25px;
+        width: fit-content;
+        padding: 20px 10px ;
+        
     }
-    .logo{
-        width: 100%;
+    .google-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 10px;
     }
-    .login-form input{
-        width: 100%;
-    }
-    .label{
-        padding: 0 !important; 
-    }
-}
-
-/* Media query for medium device */
-@media only screen and (min-width:768px) and (max-width:991px) {
-    .label{
-        padding: 0 !important; 
-        margin-bottom: 0 !important;
-    }
-   
 }

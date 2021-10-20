@@ -1,9 +1,8 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import './Register.css'
 import useAuth from '../../hooks/useAuth/useAuth';
-import logo from '../../media/logo-removebg.png';
 import google from '../../media/google.png';
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useLocation, useHistory } from 'react-router-dom';
@@ -16,11 +15,9 @@ const Register = () => {
     const location = useLocation();
     const history = useHistory();
     const redirectURL = location?.state?.from?.pathname || "/";
-    console.log(redirectURL);
 
 
     const onSubmit = data => {
-        console.log(data);
         const auth = getAuth();
         const { name, email, password, rePassword } = data;
 
@@ -58,7 +55,6 @@ const Register = () => {
     const handleGoogleSignIn = () => {
         googleSignIn()
         .then(result => {
-            console.log(result.user);
             setUser(result.user);
             history.push(redirectURL);
 
@@ -70,34 +66,37 @@ const Register = () => {
     }
 
     return (
-        <div className="register-container">
-            <Container className="d-flex flex-column justify-content-center h-100">
-                <form onSubmit={handleSubmit(onSubmit)} className="form-container">
-                    <img className="logo mb-5" src={logo} alt="" />
-                    <div className="login-form form-floating mb-3">
-                        <input type="text" id="floatingInput" {...register("name", { required: true })}/>
-                        <label className="label" htmlFor="floatingInput">Full name</label>
-                    </div>
-                    <div className="login-form form-floating mb-3">
-                        <input type="email" id="floatingInput2" {...register("email", { required: true })}/>
-                        <label className="label" htmlFor="floatingInput">Email</label>
-                    </div>
-                    <div className="login-form form-floating mb-3">
-                        <input type="password" id="floatingPassword" {...register("password", { required: true })}/>
-                        <label className="label" htmlFor="floatingPassword">Password</label>
-                    </div>
-                    <div className="login-form form-floating ">
-                        <input type="password" id="floatingPassword2" className="mt-2" {...register("rePassword", { required: true })}/>
-                        <label className="label" htmlFor="floatingPassword">Re enter <br /> password</label>
-                    </div>
-                    <p style={{color:"red"}}>{error}</p>
+        <Container className="login-container">
+        <Row>
+            <Col md={6} xs={0}></Col>
+            <Col lg={6} xs={12}>
+                
+                <form onSubmit={handleSubmit(onSubmit)} className="form-container m-5">
+                    <h2 className="login-title">Join Us!</h2>
+                    <br />
+                    <br />
+                    <input className="login-input-field" type="text" id="floatingInput" placeholder="Full Name" {...register("name", { required: true })} />
+                    <br />
+                    <br />    
+                    <input className="login-input-field" type="email" id="floatingInput" placeholder="Email" {...register("email", { required: true })} />
+                    <br />
+                    <br />
+                    <input className="login-input-field" type="password" id="floatingPassword" placeholder="Password" {...register("password", { required: true })} />
+                    <br />
+                    <br />
+                    <input  className="login-input-field" type="password" id="floatingPassword2" placeholder="Re enter your password" {...register("rePassword", { required: true })} />
+                    <br />
+                    <p style={{ color: "red" }}>{error}</p>
                     <input type="submit" value="Register" className="login-btn my-5" />
                     <br />
+                    
                     <br />
-                    <button onClick={handleGoogleSignIn} className="google-login"><img src={google} alt="" width="35px"/><small>Google Signup</small></button>
+                    <br />
+                    <button onClick={handleGoogleSignIn} className="google-login"><img src={google} alt="" width="35px"/><small>Google Sign up</small></button>
                 </form>
-            </Container>
-        </div>
+            </Col>
+        </Row>
+    </Container>
     );
 };
 

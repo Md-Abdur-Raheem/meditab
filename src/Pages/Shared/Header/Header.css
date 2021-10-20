@@ -22,3 +22,8 @@
     border: none;
     background-color: transparent;
 }
+
+.toggle-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
